@@ -1,63 +1,41 @@
 body {
-  background-color: rgb(29, 29, 29);
-  margin: 0px;
-  padding: 0px;
+    background-image: url(../images/ChristmassBody.jpg);
+    background-size: 100% 100%;
 }
 
-#header {
-  background-color: white;
-  height: 75px;
-  position: relative;
-  top: 0px;
-}
-	
-#footer {
-  background-image: url(../images/header-footer.png);
-  height: 75px;
-  margin-bottom: 0px;
-  position: relative;
-  border-top-style: ridge;
-  border-color: gray;
+hr {
+    width: 75%;
+    margin-top: 25px;
 }
 
-.logo {
-  border-color: rgb(139, 255, 137);
-  border-style: ridge;
-  border-radius: 100%;
-  position: relative;
-  top: 8px;
-  left: 30px;
-  height: 55px;
-  width: 55px;
-  transition-duration: 0.5s;
+#center {
+    margin-top: 40px;
+    margin-left: 200px;
+    float: left;
 }
 
-.scroll-header {
-  background-image: url(../images/header-footer.png);
-  height: 75px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  border-bottom-style: ridge;
-  border-color: gray;
+#countdown {
+    margin-top: 25px;
 }
 
-.button {
-  border-style: ridge;
-  background-color: rgb(71, 71, 71);
-  border-color: lightgrey;
-  border-radius: 20px;
-  padding: 7px 10px;
-  color: white;
-  margin-top: 20px;
-  margin-right: 15px;
-  float: right;
-  cursor: pointer;
-  transition-duration: 0.6s;
-  font-size: 17px;
+#countdown2 {
+    margin-top: 10px;
 }
 
-.button:hover {
-  background-color: rgb(87, 87, 87);
-  color: rgb(97, 255, 97);
+.text {
+    color: rgb(0, 225, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.countdown {
+    color: rgb(0, 225, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.countdown2 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
 }
