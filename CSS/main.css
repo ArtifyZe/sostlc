@@ -1,41 +1,14 @@
 body {
-    background-image: url(../images/ChristmassBody.jpg);
+    background-image: url(../images/WinterBackground.jpg);
     background-size: 100% 100%;
 }
 
-hr {
-    width: 75%;
-    margin-top: 25px;
-}
-
-#center {
-    margin-top: 40px;
-    margin-left: 200px;
-    float: left;
-}
-
-#countdown {
-    margin-top: 25px;
-}
-
-#countdown2 {
-    margin-top: 10px;
+#text {
+    margin-top: 200px;
 }
 
 .text {
-    color: rgb(0, 225, 255);
-    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
     font-weight: bold;
-}
-
-.countdown {
-    color: rgb(0, 225, 255);
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.countdown2 {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 40px;
 }
